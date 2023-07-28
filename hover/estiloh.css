@@ -1,0 +1,73 @@
+body {
+  background-image: linear-gradient(to bottom, #025373, #024873);
+  color: white;
+  padding: 25px;
+
+}
+
+/* Estilização base para os links */
+
+nav {
+    font-size: 25px;
+  }
+
+nav.p {
+    font-size: 30px;
+  }
+
+nav ul li a {
+    color: #d50e0e;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Efeito de hover para os links */
+  nav ul li a:hover {
+    background-color: #608af5;
+    border-radius: 5px;
+  }
+
+
+
+
+
+a  {
+  color: inherit;
+  text-decoration: none;
+  transform: translate(1110px, 0px);
+}
+
+a  {
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+a:hover  {
+  background-size: 0 3px, 100% 3px;
+}
+
+/* Presentational Styles */
+body {
+	display: grid;
+  font-family: 'Poppins', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  height: 100vh;
+	place-items: center;
+}
+
+  

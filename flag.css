@@ -1,0 +1,63 @@
+
+a[href="#"] {
+  position: relative;
+  &:after {
+    content: 'This link is broken!';
+    text-transform: uppercase;
+    font-family: Courier;
+    font-size: .625rem;
+    position: absolute;
+    left: 30px;
+    top: 7px;
+    box-shadow: 0px 1px 3px 0px slateblue;
+    color: black;
+    padding: 3px;
+    transform: rotate(-17deg);
+    background-color: yellow;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body .container {
+  background: rgb(240, 244, 247);
+  font-family: 'Permanent Marker', sans-serif;
+  color: midnightblue;
+}
+
+h1 .container {
+  margin-bottom: 0;
+}
+h2 .container {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.container {
+  background-color: white;
+  max-width: 590px;
+  margin: 13vh auto;
+  min-height: 200px;
+  padding: 5vh 5vw;
+  border-radius: 30px 0 / 30px;
+}
+
+.link-group .container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  a {
+    padding: 10px;
+  }
+}
